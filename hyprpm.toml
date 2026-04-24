@@ -1,0 +1,11 @@
+[repository]
+name = "hyprinertia"
+authors = ["jppan"]
+
+[hyprinertia]
+description = "Adds configurable pointer inertia to selected Hyprland input devices"
+authors = ["jppan"]
+output = "hyprinertia.so"
+build = [
+    "make all",
+]
