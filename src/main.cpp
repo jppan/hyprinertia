@@ -359,7 +359,6 @@ APICALL EXPORT PLUGIN_DESCRIPTION_INFO PLUGIN_INIT(HANDLE handle) {
         throw;
     }
 
-    HyprlandAPI::addNotification(PHANDLE, "[hyprinertia] loaded", CHyprColor{0.2, 0.8, 0.4, 1.0}, 2500);
     return {"hyprinertia", "Adds configurable pointer inertia to selected inputs", "jppan", "0.4"};
 }
 
